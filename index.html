@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let users =["Исма", "Иван", "Степан","Раян"];
+        // for (let i = 0; i < users.length; i++){
+        //     console.log(users[i]);
+            
+        // }
+        // // перебор массива с конца
+
+        // for (let i = users.length -1; i >= 0; i--){
+        //     console.log(users[i]);
+            
+        // }
+
+        // let users =["bmv", "amg", "audi","чанган", "степан"];
+        //    for (let i = users.length -1; i >= 0; i--){
+        //     console.log(users[i]);
+
+        // }
+
+        // let students = [
+        //     {
+        //         name: "Maga",
+        //         lastName: "Magaev",
+        //         group: "2p5"
+        //     },
+        //     {
+        //         name: "Stepan",
+        //         lastName: "Stepanov",
+        //         group: "2p3"
+        //     },
+        //     {
+        //         name: "Isma",
+        //         lastName: "Marziev",
+        //         group: "2p2"
+        //     },
+        // ]
+        // for (let i = 0; i < students.length; i++){
+        //     console.log(students[i].group);
+            
+        // }
+
+// цикл for...of для массив
+// let cars = ["amg", "bmw","audi"]
+// for (const element of cars){
+//     console.log(element);
+    
+// }
+
+// let cars1 = ["Isma", "Maga", "stepan", "Ivan", "May"]
+// for (const element of cars1){
+//     console.log("Имя: " + element);
+    
+// }
+
+
+// for...in цикл для объектов 
+// let car = {
+//     marka: "amg",
+//     model: "GT",
+//     year: 2025
+// }
+// for (const key in car){
+//     console.log(car[key]);
+    
+// }
+
+// let student2 = {
+//     name: "isma",
+//     lastName: "mAGAEV",
+//     group: "2p2"
+// }
+// // Object.keys - перебирает ключи объекта
+// console.log(Object.keys(student2));
+
+// // Object.values - перебирает все значения объектов 
+// console.log(Object.values(student2));
+// // Object.entries() - перебирает ключи и значения
+// console.log(Object.entries(student2));
+
+let cars = [{
+    marka: "amg",
+    model: "GT",
+    year: 2025,
+    color: "Black"
+},
+{
+    marka: "bmw",
+    model: "f90",
+    year: 2023,
+    color: "Blue"
+},
+{
+    marka: "amg",
+    model: "GT",
+    year: 2025,
+    color: "Black"
+},
+{
+    marka: "amg",
+    model: "GT",
+    year: 2025,
+    color: "Black"
+}]
+for (let i = 0; i < cars.length; i++ ){
+    console.log(Object.values(cars[i]));
+    
+}
+
+
+
+    </script>   
+</body>
+</html>
